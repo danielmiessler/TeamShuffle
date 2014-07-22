@@ -1,6 +1,6 @@
 team = [ ]
 
-File.open('/Users/daniel/Documents/team.txt').each_line{ |s|
+File.open('./team.txt').each_line{ |s|
   team.push s.chomp
 }
 
